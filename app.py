@@ -4,7 +4,7 @@ import pandas as pd
 with st.sidebar:
     Pages = st.radio(
         "Choose an option",
-        ("Form", "CSV Uploader","Image Gallery")
+        ("📝Form", "📤CSV Uploader","🖼️Image Gallery")
     )
 if Pages == "Form":
     st.title("User Informaion Form")
